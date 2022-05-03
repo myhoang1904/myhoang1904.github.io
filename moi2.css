@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+}
+img{
+	max-width: 100%;
+}
+body{
+	background-image: url("bg_1.png");
+	background-size: cover;
+}
+.header .logo{
+	height: 70px;
+}
+.header .illus{
+	position: absolute;
+}
+.planet{
+	width: 20%;
+	top: 0;
+	left: 0;
+}
+.meta{
+	height: 500px;
+}
+.header ul li{
+	display: inline;
+	padding: 0 20px;
+	font-size: 20px;
+}
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 100px;
+	position: relative;
+}
+.header .menu{
+	display: inline;
+}
+.header .hr{
+	color: aqua;
+	border-bottom: 3px solid;
+	padding: 5px 0;
+}
+.header .buynow{
+	background: rgb(164,17,231);
+	background: linear-gradient(90deg, rgba(164,17,231,1) 0%, rgba(0,255,255,1) 100%);
+	border: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+}
+.intro{
+	padding: 50px 0 0 200px;
+	width: 80%;
+}
+.intro h1{
+	color: #00ffff;
+	font-size: 100px;
+}
+.intro p{
+	line-height: 40px;
+	font-size: 20px;
+}
+.intro .meta{
+	height: 400px;
+}
+.intro{
+	display: flex;
+	align-items: center;
+	width: 50%;
+	justify-content: space-around;
+}
+.part2 .explore{
+	background: rgb(164,17,231);
+	background: linear-gradient(90deg, rgba(164,17,231,1) 0%, rgba(0,255,255,1) 100%);
+	border: none;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+.part2 .video{
+	background: transparent;
+	border: 2px solid transparent;
+	border-image: linear-gradient(90deg, rgba(164,17,231,1) 0%, rgba(0,255,255,1) 100%);
+	border-image-slice: 1;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+.part2 ul li{
+	display: inline;
+	padding: 10px 10px;
+}
+.part2{
+	padding: 40px 0;
+	width: 1200px;
+	margin-left: 390px;
+}
+.stat{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+	padding: 100px 0;
+	width: 150%;
+}
+.stat h1{
+	font-size: 80px;
+	line-height: 100px;
+}
+.stat p{
+	font-size: 20px;
+}
+.part2 .pjs h1{
+	font-size: 50px;
+	text-align: center;
+	font-weight: 800;
+	background: -webkit-linear-gradient(90deg, rgba(173,7,218,1) 0%, rgba(147,88,236,1) 51%, rgba(0,239,255,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	width: 150%;
+}
+.part2 .pjs .token{
+	display: flex;
+	align-items: center;
+	padding: 50px;
+	text-align: center;
+	justify-content: center;
+	width: 150%;
+}
+.token p{
+	font-size: 20px;
+}
+.part3 h1{
+	font-size: 70px;
+	font-weight: 800;
+	background: -webkit-linear-gradient(90deg, rgba(173,7,218,1) 0%, rgba(147,88,236,1) 51%, rgba(0,239,255,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.part3 .text{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 50px 0 0 400px;
+}
+.part3 .text p{
+	line-height: 30px;
+	font-size: 20px;
+	padding: 0 50px;
+}
+.part3 .menu ul{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+	padding: 100px;
+}
+.part3 .menu ul li{
+	padding: 0 50px;
+}
+.item{
+	background: rgb(164,17,231);
+	background: linear-gradient(90deg, rgba(164,17,231,1) 0%, rgba(0,255,255,1) 100%);
+	border: none;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+.sale{
+	background: transparent;
+	border: 2px solid transparent;
+	border-image: linear-gradient(90deg, rgba(164,17,231,1) 0%, rgba(0,255,255,1) 100%);
+	border-image-slice: 1;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 30px;
+}
+.listing{
+	background: transparent;
+	border: 2px solid transparent;
+	border-image: linear-gradient(90deg, rgba(164,17,231,1) 0%, rgba(0,255,255,1) 100%);
+	border-image-slice: 1;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 30px;
+}
+.estate{
+	background: transparent;
+	border: 2px solid transparent;
+	border-image: linear-gradient(90deg, rgba(164,17,231,1) 0%, rgba(0,255,255,1) 100%);
+	border-image-slice: 1;
+	border-radius: 10px;
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 30px;
+}
+.part3 .arts{
+	display: grid;
+	grid-template-rows: 700px;
+	grid-template-columns: 700px 700px 700px;
+	text-align: center;
+	justify-content: center;
+}
+.part4 h1{
+	font-size: 70px;
+	font-weight: 800;
+	background: -webkit-linear-gradient(90deg, rgba(173,7,218,1) 0%, rgba(147,88,236,1) 51%, rgba(0,239,255,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.part4 .text p{
+	line-height: 30px;
+	font-size: 20px;
+	padding: 40px 0;
+}
+.part4{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 100px 0 100px 200px;
+}
+.part4 .ETH{
+	position: relative;
+	right: 5%;
+}
+.part5 h1{
+	font-size: 70px;
+	font-weight: 800;
+	background: -webkit-linear-gradient(90deg, rgba(173,7,218,1) 0%, rgba(147,88,236,1) 51%, rgba(0,239,255,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.footer .line{
+	width: 2px;
+	
+}
+.part5 .text{
+	text-align: center;
+	padding: 50px 0;
+}
+.part5 .text p{
+	line-height: 50px;
+	font-size: 20px;
+	padding: 0 50px;
+}
+.part5 .logo img{
+	width: 200px;
+}
+.part5 .logo{
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20%;
+	grid-gap: 50px;
+	text-align: center;
+	justify-content: center;
+	margin-left: 230px;
+	padding: 50px 0;
+	margin-bottom: 100px;
+}
+.part6 h1{
+	font-size: 70px;
+	font-weight: 800;
+	background: -webkit-linear-gradient(90deg, rgba(173,7,218,1) 0%, rgba(147,88,236,1) 51%, rgba(0,239,255,1) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-align: center;
+	padding: 100px 0;
+}
+.part6 ul{
+	text-align: center;
+}
+.part6 ul li{
+	display: inline;
+	padding: 0 50px;
+}
+.part6 img{
+	width: 550px;
+}
+.part6{
+	margin-bottom: 100px;
+}
+.planetblue{
+	width: 505px;
+	height: 452px;
+	margin: 0 auto;
+}
+.line{
+	width: 1800px;
+	height: 3px;
+	background: rgb(218,7,217);
+background: linear-gradient(90deg, rgba(218,7,217,1) 0%, rgba(7,82,218,1) 50%, rgba(0,255,244,1) 100%);
+	margin: 0 auto;
+}
+.footer img{
+	height: 70px;
+}
+.footer p{
+	line-height: 30px;
+	font-size: 20px;
+}
+.footer .right ul{
+	display: flex;
+	list-style-type: none;
+}
+.footer li{
+	padding: 20px 10px;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	padding: 100px;
+	margin: 0 100px 0 250px; 
+}
